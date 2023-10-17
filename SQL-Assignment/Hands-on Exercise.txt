@@ -1,0 +1,14 @@
+Hands-on Exercise
+
+1.)Column 1 - inserted Successfully
+   Column 2 - ORA-12899: value too large for column "SCOTT"."CHALLAN_DETAILS"."CHALLAN_NO"(actual: 7, maximum: 6)
+   Column 3 - ORA-02291: integrity constraint (SCOTT.SYS_C008311) violated - parent key not found.
+
+2.)No product Master Can't Drop
+   ERROR at line 1:ORA-02449: unique/primary keys in table referenced by foreign keys.
+
+3.)challan_details -Table Dropped
+   challan_header - Table Dropped
+   Product_Master - ERROR at line 1:ORA-02449: unique/primary keys in table referenced by foreign keys
+4.)Until column present in the child table parent table cannot be delete.Then we can't violate the rules.
+   
